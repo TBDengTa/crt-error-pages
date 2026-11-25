@@ -1,0 +1,30 @@
+{
+  "name": "crt-error-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open-source CRT-style error pages built with Vue 3 and Vite.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/TBDengTa/crt-error-pages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TBDengTa/crt-error-pages.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vue-router": "^4.6.4",
+    "vue-tsc": "^3.3.10"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vue": "^3.5.41"
+  }
+}
